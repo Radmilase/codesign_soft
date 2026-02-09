@@ -1,0 +1,19 @@
+{
+  "seed": 0,
+  "mode": "id",
+  "trials": 90,
+  "baseline": {
+    "success_rate": 0.43333333333333335,
+    "mean_score": 0.3837167024612427,
+    "std_score": 0.4387968182563782,
+    "worst_score": 0.0
+  },
+  "skill_space": {
+    "success_rate": 0.45555555555555555,
+    "mean_score": 0.40914446115493774,
+    "std_score": 0.44751664996147156,
+    "worst_score": 0.0,
+    "trials_used": 90,
+    "per_skill": 30
+  }
+}

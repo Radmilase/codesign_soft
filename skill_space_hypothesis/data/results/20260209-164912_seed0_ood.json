@@ -1,0 +1,19 @@
+{
+  "seed": 0,
+  "mode": "ood",
+  "trials": 90,
+  "baseline": {
+    "success_rate": 0.32222222222222224,
+    "mean_score": 0.2531055510044098,
+    "std_score": 0.3670857548713684,
+    "worst_score": 0.0
+  },
+  "skill_space": {
+    "success_rate": 0.3333333333333333,
+    "mean_score": 0.2659333646297455,
+    "std_score": 0.37628260254859924,
+    "worst_score": 0.0,
+    "trials_used": 90,
+    "per_skill": 30
+  }
+}
