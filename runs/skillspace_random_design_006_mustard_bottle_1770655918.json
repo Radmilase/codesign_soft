@@ -1,0 +1,401 @@
+{
+  "time": 1770655918,
+  "args": {
+    "object": "006_mustard_bottle",
+    "mode": "random_design",
+    "trials": 20,
+    "n_blocks": 8,
+    "seed": 0,
+    "proxy_mode": "neural",
+    "outdir": "runs",
+    "plot": false,
+    "iters": 30,
+    "eval_trials": 20
+  },
+  "gripper": {
+    "stiffness_blocks": [
+      1.9471888932322174,
+      0.8823814699152238,
+      0.2188232194149646,
+      0.14793014303273438,
+      2.45848369368079,
+      2.746991174105393,
+      1.8592437497248215,
+      2.215540026853595
+    ]
+  },
+  "summary": {
+    "mean": 4.9350000000000005,
+    "std": 8.881784197001252e-16,
+    "min": 4.935,
+    "max": 4.935,
+    "n": 20,
+    "per_skill": {
+      "power": {
+        "mean": 4.935,
+        "std": 0.0,
+        "n": 8
+      },
+      "pinch": {
+        "mean": 4.935,
+        "std": 0.0,
+        "n": 8
+      },
+      "push": {
+        "mean": 4.935,
+        "std": 0.0,
+        "n": 4
+      }
+    },
+    "proxy_keys_example": [
+      "success",
+      "slip",
+      "energy",
+      "contact_count",
+      "baseline_used",
+      "baseline_module"
+    ]
+  },
+  "rows": [
+    {
+      "trial": 0,
+      "skill": "power",
+      "params": {
+        "force": 5.428080423874833,
+        "wrap": 0.23277881914895576
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    },
+    {
+      "trial": 1,
+      "skill": "pinch",
+      "params": {
+        "force": 5.066351196001362,
+        "distance": 0.04633573424566431
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    },
+    {
+      "trial": 2,
+      "skill": "power",
+      "params": {
+        "force": 9.565469048855984,
+        "wrap": 0.6348999931723383
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    },
+    {
+      "trial": 3,
+      "skill": "push",
+      "params": {
+        "force": 6.710974878850725,
+        "speed": 0.051232325076566644
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    },
+    {
+      "trial": 4,
+      "skill": "push",
+      "params": {
+        "force": 1.2350990271382505,
+        "speed": 0.3783449508934748
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    },
+    {
+      "trial": 5,
+      "skill": "pinch",
+      "params": {
+        "force": 5.315894611749433,
+        "distance": 0.030741371250461853
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    },
+    {
+      "trial": 6,
+      "skill": "pinch",
+      "params": {
+        "force": 3.113436105988292,
+        "distance": 0.009189426188109445
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    },
+    {
+      "trial": 7,
+      "skill": "pinch",
+      "params": {
+        "force": 4.3531220734681515,
+        "distance": 0.035181959486118505
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    },
+    {
+      "trial": 8,
+      "skill": "power",
+      "params": {
+        "force": 6.4530979883569515,
+        "wrap": 0.9977679486313689
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    },
+    {
+      "trial": 9,
+      "skill": "push",
+      "params": {
+        "force": 5.798793891364863,
+        "speed": 0.3427066743205173
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    },
+    {
+      "trial": 10,
+      "skill": "power",
+      "params": {
+        "force": 6.5002928158119335,
+        "wrap": 0.308077204017929
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    },
+    {
+      "trial": 11,
+      "skill": "power",
+      "params": {
+        "force": 7.728188902281533,
+        "wrap": 0.44819350044716455
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    },
+    {
+      "trial": 12,
+      "skill": "power",
+      "params": {
+        "force": 11.005390509141002,
+        "wrap": 0.9472348127649999
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    },
+    {
+      "trial": 13,
+      "skill": "pinch",
+      "params": {
+        "force": 3.8576491536488047,
+        "distance": 0.021518514425189574
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    },
+    {
+      "trial": 14,
+      "skill": "power",
+      "params": {
+        "force": 6.041201029564199,
+        "wrap": 0.5132952004225291
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    },
+    {
+      "trial": 15,
+      "skill": "push",
+      "params": {
+        "force": 2.590103154733658,
+        "speed": 0.33043421510871906
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    },
+    {
+      "trial": 16,
+      "skill": "pinch",
+      "params": {
+        "force": 5.163220738266989,
+        "distance": 0.041058128914524705
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    },
+    {
+      "trial": 17,
+      "skill": "pinch",
+      "params": {
+        "force": 5.382421154053519,
+        "distance": 0.010459857461818163
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    },
+    {
+      "trial": 18,
+      "skill": "pinch",
+      "params": {
+        "force": 1.7513973344741953,
+        "distance": 0.026914253399270054
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    },
+    {
+      "trial": 19,
+      "skill": "power",
+      "params": {
+        "force": 5.075779880943727,
+        "wrap": 0.2416170408515277
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    }
+  ]
+}

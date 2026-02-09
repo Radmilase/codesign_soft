@@ -1,0 +1,125 @@
+{
+  "time": 1770653603,
+  "script_dir": "C:\\Users\\rad\\Downloads\\soft",
+  "import_root": "C:\\Users\\rad\\Downloads\\soft\\skill_space_hypothesis",
+  "baseline_dir": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper",
+  "simulate_neural_sig": "(gripper, skill, params, obj: str, mode: str = 'id') -> Dict[str, Any]",
+  "args": {
+    "object": "006_mustard_bottle",
+    "trials": 3,
+    "n_blocks": 8,
+    "seed": 0,
+    "mode": "baseline",
+    "outdir": "runs",
+    "plot": false,
+    "print_sig": false
+  },
+  "summary": {
+    "mean": 4.935,
+    "std": 0.0,
+    "min": 4.935,
+    "max": 4.935,
+    "n": 3,
+    "per_skill": {
+      "power": {
+        "mean": 4.935,
+        "std": 0.0,
+        "n": 2
+      },
+      "pinch": {
+        "mean": 4.935,
+        "std": 0.0,
+        "n": 1
+      }
+    }
+  },
+  "rows": [
+    {
+      "trial": 0,
+      "skill": "power",
+      "skill_params": {
+        "force": 5.428080423874833,
+        "wrap": 0.23277881914895576
+      },
+      "design": {
+        "stiffness_blocks": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    },
+    {
+      "trial": 1,
+      "skill": "pinch",
+      "skill_params": {
+        "force": 5.066351196001362,
+        "distance": 0.04633573424566431
+      },
+      "design": {
+        "stiffness_blocks": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    },
+    {
+      "trial": 2,
+      "skill": "power",
+      "skill_params": {
+        "force": 9.565469048855984,
+        "wrap": 0.6348999931723383
+      },
+      "design": {
+        "stiffness_blocks": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    }
+  ]
+}

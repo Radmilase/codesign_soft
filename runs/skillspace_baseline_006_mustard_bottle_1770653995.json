@@ -1,0 +1,68 @@
+{
+  "time": 1770653995,
+  "args": {
+    "object": "006_mustard_bottle",
+    "mode": "baseline",
+    "trials": 1,
+    "n_blocks": 8,
+    "seed": 0,
+    "proxy_mode": "id",
+    "outdir": "runs",
+    "plot": false,
+    "iters": 30,
+    "eval_trials": 20
+  },
+  "gripper": {
+    "stiffness_blocks": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "summary": {
+    "mean": 4.935,
+    "std": 0.0,
+    "min": 4.935,
+    "max": 4.935,
+    "n": 1,
+    "per_skill": {
+      "power": {
+        "mean": 4.935,
+        "std": 0.0,
+        "n": 1
+      }
+    },
+    "proxy_keys_example": [
+      "success",
+      "slip",
+      "energy",
+      "contact_count",
+      "baseline_used",
+      "baseline_module"
+    ]
+  },
+  "rows": [
+    {
+      "trial": 0,
+      "skill": "power",
+      "params": {
+        "force": 5.428080423874833,
+        "wrap": 0.23277881914895576
+      },
+      "score": 4.935,
+      "proxy_out": {
+        "success": true,
+        "slip": 0.05,
+        "energy": 0.8,
+        "contact_count": 4,
+        "baseline_used": true,
+        "baseline_module": "C:\\Users\\rad\\Downloads\\soft\\codesign-soft-gripper\\code\\evaluation.py"
+      }
+    }
+  ]
+}
